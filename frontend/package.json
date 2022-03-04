@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "frontend",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "gatsby": "^4.9.0",
     "gatsby-plugin-gatsby-cloud": "^4.9.0",
     "gatsby-plugin-image": "^2.9.0",

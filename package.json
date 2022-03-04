@@ -1,0 +1,9 @@
+{
+  "workspaces": ["backend", "frontend"],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/quedet/sanity-gatsby-blog.git",
+  "author": "Fidel Quedet <38511646+quedet@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true
+}
