@@ -5,5 +5,10 @@
   "repository": "https://github.com/quedet/sanity-gatsby-blog.git",
   "author": "Fidel Quedet <38511646+quedet@users.noreply.github.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace backend run start",
+    "develop": "yarn workspace frontend run develop",
+    "project:dev": "yarn run start && yarn run develop"
+  }
 }
