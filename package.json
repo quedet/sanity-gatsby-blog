@@ -11,8 +11,11 @@
   "private": true,
   "scripts": {
     "start": "yarn workspace backend run start",
+    "deploy": "yarn workspace backend run deploy",
     "develop": "yarn workspace frontend run develop",
-    "project:dev": "concurrently \"yarn run start\" \"yarn run develop\""
+    "public": "yarn workspace frontend run build",
+    "project:dev": "concurrently \"yarn run start\" \"yarn run develop\"",
+    "build": "concurrently \"yarn run deploy\" \"yarn run public\""
   },
   "dependencies": {
     "concurrently": "^7.0.0"
